@@ -1,0 +1,85 @@
+body{
+  background-color: black;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color:yellow;
+  margin-left:0px;
+  padding:10px;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  
+}
+
+#new-item {
+  width: 70%;
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+button {
+  background-color: #0fa8db;
+  color: white;
+  padding-left:30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  border: 1px solid yellow;
+  cursor: pointer;
+  
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color:red;
+  font-weight:20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.completed-tasks {
+  flex: 1;
+  margin-left: 100px;
+  margin-right: 10px;
+  
+}
+
+.completed-tasks h2 {
+  color: #45e34b;
+}
+
+.completed-tasks li {
+  text-decoration: line-through;
+  color: #4CAF50;
+}
+.pending-tasks{
+  color:red;
+}
+button:hover{
+  background-color: rgb(58, 190, 227);
+}
